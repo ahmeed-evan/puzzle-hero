@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Puzzle Hero</string>
+    <string name="text_sign_up"><u>Sign up for Puzzle Hero</u></string>
+    <string name="text_support">Support@innovertechbd.com</string>
+    <string name="text_my_plan">My Plan</string>
+    <string name="text_gKnowledge">General Knowledge</string>
+    <string name="text_visual_puzzle">Visual Puzzle</string>
+    <string name="text_my_score">My Score</string>
+    <string name="text_leaderboard">Leaderboard</string>
+    <string name="text_about_us">About Us</string>
+    <string name="banner_text">Battle your way through to the end of our survivor quizzes</string>
+    <string name="total_point_text">Your total point :</string>
+    <string name="support_email">puzzleherobd@gmail.com</string>
+    <string name="text_already_have_account"><u>Already have account?</u> </string>
+    <string name="text_password_not_matched">Password did not match. Please check your input value</string>
+    <string name="text_invalid_iunput">Please provide valid input</string>
+    <string name="text_prize">Prize</string>
+</resources>

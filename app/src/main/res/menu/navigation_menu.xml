@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/gKnowledgeTV"
+        android:icon="@drawable/ic_gknowledge"
+        android:iconTint="@color/white"
+        android:title="@string/text_gKnowledge" />
+    <item
+        android:id="@+id/visualPuzzleTV"
+        android:icon="@drawable/ic_visual_puzzle"
+        android:iconTint="@color/white"
+        android:title="@string/text_visual_puzzle" />
+    <item
+        android:id="@+id/myScoreTV"
+        android:icon="@drawable/ic_my_score"
+        android:iconTint="@color/white"
+        android:title="@string/text_my_score" />
+    <item
+        android:id="@+id/leaderboardFragment"
+        android:icon="@drawable/ic_leaderboard"
+        android:iconTint="@color/white"
+        android:title="@string/text_leaderboard" />
+    <item
+        android:id="@+id/aboutUsFragment"
+        android:icon="@drawable/ic_about_us"
+        android:iconTint="@color/white"
+        android:title="@string/text_about_us" />
+
+</menu>

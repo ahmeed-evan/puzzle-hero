@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home">
+
+    <ImageView
+        android:id="@+id/backArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:src="@drawable/ic_back_arrow"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_custom_titile_box_yellow"
+        android:fontFamily="@font/aclonica"
+        android:text="Prize"
+        android:textAlignment="center"
+        android:textAppearance="@style/poppins_20_black"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/backArrow"
+        app:layout_constraintWidth_percent=".5" />
+
+
+    <ImageView
+        android:id="@+id/phnImg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:src="@drawable/bg_oneplus_nord"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent=".55"
+        app:layout_constraintTop_toBottomOf="@id/titleText"
+        app:layout_constraintVertical_bias="0" />
+
+
+    <TextView
+        android:id="@+id/phnName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_custom_titile_box_yellow"
+        android:gravity="center"
+        android:text="OnePlus Nord N200 5G"
+        android:textAlignment="center"
+        android:textAppearance="@style/poppins_17_black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/phnImg"
+        app:layout_constraintWidth_percent=".6" />
+
+    <TextView
+        android:id="@+id/prizeDetails"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_custom_option_button"
+        android:gravity="center"
+        android:text=" First 3000 point achiever in a month
+will win the following prize."
+        android:textAlignment="center"
+        android:textAppearance="@style/poppins_17_black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/phnName"
+        app:layout_constraintWidth_percent=".9" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

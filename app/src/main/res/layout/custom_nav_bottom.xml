@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cyan"
+    android:gravity="right"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/gKnowledgeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_gknowledge"
+        android:drawablePadding="16dp"
+        android:padding="16dp"
+        android:text="@string/text_gKnowledge"
+        android:textAppearance="@style/poppins_17_white" />
+
+    <TextView
+        android:id="@+id/visualPuzzleTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_visual_puzzle"
+        android:drawablePadding="16dp"
+        android:padding="16dp"
+        android:text="@string/text_visual_puzzle"
+        android:textAppearance="@style/poppins_17_white" />
+
+    <TextView
+        android:id="@+id/myScoreTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_my_score"
+        android:drawablePadding="16dp"
+        android:padding="16dp"
+        android:text="@string/text_my_score"
+        android:textAppearance="@style/poppins_17_white" />
+
+    <TextView
+        android:id="@+id/leaderboardTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_leaderboard"
+        android:drawablePadding="16dp"
+        android:padding="16dp"
+        android:text="@string/text_leaderboard"
+        android:textAppearance="@style/poppins_17_white" />
+
+
+    <TextView
+        android:id="@+id/prizeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_gift_box"
+        android:drawablePadding="16dp"
+        android:paddingVertical="16dp"
+        android:paddingHorizontal="20dp"
+        android:text="@string/text_prize"
+        android:textAppearance="@style/poppins_17_white" />
+
+    <TextView
+        android:id="@+id/aboutUsTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_about_us"
+        android:drawablePadding="16dp"
+        android:padding="16dp"
+        android:text="@string/text_about_us"
+        android:textAppearance="@style/poppins_17_white" />
+
+
+</LinearLayout>
